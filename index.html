@@ -9,6 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Font-Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/solid.min.css"
+        integrity="sha512-pZlKGs7nEqF4zoG0egeK167l6yovsuL8ap30d07kA5AJUq+WysFlQ02DLXAmN3n0+H3JVz5ni8SJZnrOaYXWBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Tailwind And Daisy Ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -29,10 +36,9 @@
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
-        @media screen and (max-width:600px) {
-            .last-images{
 
-            }
+        @media screen and (max-width:600px) {
+            .last-images {}
         }
     </style>
 </head>
@@ -150,25 +156,31 @@
                 <div class="grid grid-cols-1 mt-8 gap-8 lg:grid-cols-2">
                     <div class="relative group">
                         <img src="Images/2.png" alt="" class="w-full h-auto ">
-                        <div class="absolute inset-0 flex flex-col items-start justify-center text-white pl-16 space-y-5">
+                        <div
+                            class="absolute inset-0 flex flex-col items-start justify-center text-white pl-16 space-y-5">
                             <h1 class="text-2xl font-extrabold">Junior Program</h1>
-                            <p class="">The Soviet League's talent level was severely diminished following the fall of communism when most elite players</p>
+                            <p class="">The Soviet League's talent level was severely diminished following the fall of
+                                communism when most elite players</p>
                             <button class="btn border-0 text-white bg-red-500">Register Now!</button>
                         </div>
                     </div>
                     <div class="relative group">
                         <img src="Images/3.png" alt="" class="w-full h-auto ">
-                        <div class="absolute inset-0 flex flex-col items-start justify-center text-white pl-16 space-y-5">
+                        <div
+                            class="absolute inset-0 flex flex-col items-start justify-center text-white pl-16 space-y-5">
                             <h1 class="text-2xl font-extrabold">Teenager Program</h1>
-                            <p class="">The Soviet League's talent level was severely diminished following the fall of communism when most elite players</p>
+                            <p class="">The Soviet League's talent level was severely diminished following the fall of
+                                communism when most elite players</p>
                             <button class="btn border-0 text-white bg-red-500">Register Now!</button>
                         </div>
                     </div>
                     <div class="relative group  lg:col-span-2">
                         <img src="Images/4.png" alt="" class="w-full h-96">
-                        <div class="absolute inset-0 flex flex-col items-start justify-center text-white pl-16 space-y-5">
+                        <div
+                            class="absolute inset-0 flex flex-col items-start justify-center text-white pl-16 space-y-5">
                             <h1 class="text-2xl font-extrabold">Professional Program</h1>
-                            <p class="">The Soviet League's talent level was severely diminished following the fall of communism when most elite players</p>
+                            <p class="">The Soviet League's talent level was severely diminished following the fall of
+                                communism when most elite players</p>
                             <button class="btn border-0 text-white bg-red-500">Register Now!</button>
                         </div>
                     </div>
@@ -182,7 +194,8 @@
                 <div class="product-head">
                     <h1 class="lg:text-4xl text-2xl font-bold text-center">Our New Products</h1>
                     <p class="text-center mt-6 lg:w-1/2 mx-auto">
-                        Between the wars, British ice hockey grew rapidly with new ice rinks and an influx of Canadian players.
+                        Between the wars, British ice hockey grew rapidly with new ice rinks and an influx of Canadian
+                        players.
                     </p>
                 </div>
 
@@ -192,11 +205,218 @@
                     <!-- start a card section -->
                     <div class="card-section">
                         <!-- first card -->
-                        <div>
+                        <div class="flex lg:flex-row flex-col space-y-2">
                             <img src="Images/5.png" alt="">
+                            <div class="card-bod ml-5 space-y-2">
+                                <div class="reaction flex gap-5">
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid text-amber-300 fa-star text-2xl"></i>
+                                        <p>5.0</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p>20</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <i class="fa-regular fa-heart text-2xl"></i>
+                                        <p>200</p>
+                                    </div>
+                                </div>
+                                <div class="content space-y-2">
+                                    <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                                    <p>Much as was the case of the concurrent development.</p>
+                                    <p><span class="text-red-400 text-base font-extrabold mr-2">Price - $22.00</span> <i
+                                            class="fa-solid mr-3 fa-cart-shopping"></i>Delivery Fee : Free</p>
+                                </div>
+                            </div>
                         </div>
                         <div>
-                            
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <!-- second card -->
+                        <div class="flex lg:flex-row flex-col space-y-2">
+                            <img src="Images/6.png" alt="">
+                            <div class="card-bod ml-5 space-y-2">
+                                <div class="reaction flex gap-5">
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid text-amber-300 fa-star text-2xl"></i>
+                                        <p>5.0</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p>20</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <i class="fa-regular fa-heart text-2xl"></i>
+                                        <p>200</p>
+                                    </div>
+                                </div>
+                                <div class="content space-y-2">
+                                    <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                                    <p>Much as was the case of the concurrent development.</p>
+                                    <p><span class="text-red-400 text-base font-extrabold mr-2">Price - $22.00</span> <i
+                                            class="fa-solid mr-3 fa-cart-shopping"></i>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <!-- Third card -->
+                        <div class="flex lg:flex-row flex-col space-y-2">
+                            <img src="Images/7.png" alt="">
+                            <div class="card-bod ml-5 space-y-2">
+                                <div class="reaction flex gap-5">
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid text-amber-300 fa-star text-2xl"></i>
+                                        <p>5.0</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p>20</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <i class="fa-regular fa-heart text-2xl"></i>
+                                        <p>200</p>
+                                    </div>
+                                </div>
+                                <div class="content space-y-2">
+                                    <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                                    <p>Much as was the case of the concurrent development.</p>
+                                    <p><span class="text-red-400 text-base font-extrabold mr-2">Price - $22.00</span> <i
+                                            class="fa-solid mr-3 fa-cart-shopping"></i>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <!-- Fourth card -->
+                        <div class="flex lg:flex-row flex-col space-y-2">
+                            <img src="Images/8.png" alt="">
+                            <div class="card-bod ml-5 space-y-2">
+                                <div class="reaction flex gap-5">
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid text-amber-300 fa-star text-2xl"></i>
+                                        <p>5.0</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p>20</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <i class="fa-regular fa-heart text-2xl"></i>
+                                        <p>200</p>
+                                    </div>
+                                </div>
+                                <div class="content space-y-2">
+                                    <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                                    <p>Much as was the case of the concurrent development.</p>
+                                    <p><span class="text-red-400 text-base font-extrabold mr-2">Price - $22.00</span> <i
+                                            class="fa-solid mr-3 fa-cart-shopping"></i>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <!-- fivth card -->
+                        <div class="flex lg:flex-row flex-col space-y-2">
+                            <img src="Images/9.png" alt="">
+                            <div class="card-bod ml-5 space-y-2">
+                                <div class="reaction flex gap-5">
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid text-amber-300 fa-star text-2xl"></i>
+                                        <p>5.0</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p>20</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <i class="fa-regular fa-heart text-2xl"></i>
+                                        <p>200</p>
+                                    </div>
+                                </div>
+                                <div class="content space-y-2">
+                                    <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                                    <p>Much as was the case of the concurrent development.</p>
+                                    <p><span class="text-red-400 text-base font-extrabold mr-2">Price - $22.00</span> <i
+                                            class="fa-solid mr-3 fa-cart-shopping"></i>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <!-- sixth card -->
+                        <div class="flex lg:flex-row flex-col space-y-2">
+                            <img src="Images/10.png" alt="">
+                            <div class="card-bod ml-5 space-y-2">
+                                <div class="reaction flex gap-5">
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid text-amber-300 fa-star text-2xl"></i>
+                                        <p>5.0</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p>20</p>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <i class="fa-regular fa-heart text-2xl"></i>
+                                        <p>200</p>
+                                    </div>
+                                </div>
+                                <div class="content space-y-2">
+                                    <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                                    <p>Much as was the case of the concurrent development.</p>
+                                    <p><span class="text-red-400 text-base font-extrabold mr-2">Price - $22.00</span> <i
+                                            class="fa-solid mr-3 fa-cart-shopping"></i>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
                         </div>
                     </div>
 
